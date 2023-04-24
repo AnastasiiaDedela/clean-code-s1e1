@@ -102,6 +102,10 @@ input[type="text"]:focus {
 }
 
 /* New Task */
+.add-task__title {
+    display: block;
+    margin: 0 0 20px;
+}
 label[for='new-task'] {
     display: block;
     margin: 0 0 20px;
@@ -161,11 +165,11 @@ label[for='new-task'] {
     display: none;
 }
 
-.todo__edite input[type=text] {
+.list .todo__edite input[type=text] {
     display: inline-block;
     width: 224px;
 }
 
-.todo__edite label {
+.list .todo__edite label {
     display: none;
 }
